@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    * {
+        margin: 0;
+        padding: 0;
+    }
+
+    /* 
+    div {
+        border: 2px solid blue;
+    } */
+
+    nav {
+        display: flex;
+        /* border: 2px solid black; */
+        justify-content: space-around;
+        height: 100px;
+        align-items: center;
+        /* gap: 50px; */
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #3f3f3f;
+        /* align-items: baseline; */
+        /* gap: 0px 180px; */
+    }
+
+
+    .box1 .logo1 {
+        height: 60px;
+        width: 193px;
+        align-self: center;
+        /* border: 2px solid red; */
+        position: relative;
+        cursor: pointer;
+
+    }
+
+    .box1 .logo2 {
+        height: 12px;
+        width: 82px;
+        align-self: center;
+        /* border: 2px solid blueviolet; */
+        position: absolute;
+        left: 219px;
+        top: 67px;
+    }
+
+    .boxes {
+        /* border: 2px solid green; */
+        display: flex;
+        /* justify-content: space-around; */
+        /* flex: 1; */
+        /* margin: 36px 0px 0px 0px; */
+    }
+
+    .box1 {
+        /* width: 25%; */
+        /* flex: 1; */
+        justify-content: center;
+        /* align-items: center; */
+
+    }
+
+    .box2 ul {
+        display: flex;
+        list-style-type: none;
+        /* align-items: center; */
+        gap: 35px;
+
+
+    }
+
+    .box2 ul li {
+        /* width: 50%; */
+        /* justify-content: space-around; */
+        /* flex: 2; */
+        /* align-items: baseline; */
+        color: #3f3f3f;
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        cursor: pointer;
+    }
+
+    .box3 {
+        /* width: 25%; */
+        /* flex: 1; */
+        gap: 30px;
+        align-items: baseline;
+        /* align-items: center; */
+        cursor: pointer;
+
+
+    }
+
+
+    .box3 button {
+        border: 2px solid rgb(34, 34, 34);
+        padding: 10px 20px;
+        background-color: white;
+        font-weight: 750;
+        font-size: 15px;
+        border-radius: 5%;
+        color: #212221;
+        cursor: pointer;
+
+    }
+
+    .Titles div h1 {
+        font-weight: 800;
+        /* font-size: 15px; */
+        color: #212221;
+
+    }
+</style>
+
+<body>
+    <nav>
+
+        <div class="boxes box1">
+            <div>
+                <!-- <img src="img/Background-2.png" alt="logo"> -->
+                <img class="logo1" src="https://www.ultraedit.com/wp-content/uploads/2023/01/Background-2.png"
+                    alt="logo1">
+                <!-- <img src="img/Layer-1-1.png" alt="logo2"> -->
+                <img class="logo2" src="https://www.ultraedit.com/wp-content/uploads/2023/01/Layer-1-1.png" alt="logo2">
+            </div>
+
+            <!-- <div class="Titles">
+                <div>
+                    <h1>UltraEdit</h1>
+                </div>
+                <div>
+                    <h5>by Embarcadero</h5>
+                </div>
+            </div> -->
+        </div>
+        <div class="boxes box2">
+            <ul>
+                <li>Products <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                        color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></li>
+                <li>Pricing <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                        color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></li>
+                <li>Resources <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                        color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></li>
+                <li>Our Company <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="16" height="16"
+                        color="#000000" fill="none">
+                        <path d="M18 9.00005C18 9.00005 13.5811 15 12 15C10.4188 15 6 9 6 9" stroke="currentColor"
+                            stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </svg></li>
+            </ul>
+        </div>
+        <div class="boxes box3">
+            <div>
+                <button>BUY NOW</button>
+            </div>
+            <div>
+                <img src="img/world.png" alt="icon">
+                <span>English</span>
+            </div>
+            <div>
+                <img src="img/magnifying-glass.png" alt="search">
+            </div>
+        </div>
+    </nav>
+
+
+</body>
+
+</html>
